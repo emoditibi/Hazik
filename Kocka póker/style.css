@@ -1,0 +1,52 @@
+body {
+    background-image: url("hatter.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+#kockak{
+padding-left: 36%;
+padding-top: 20%;
+}
+#gomb{
+    background-image: url("button.png");
+    height: 4rem;
+    width: 20rem;
+    color:wheat;
+    font-family: Neucha, sans-serif;
+    align-self: center;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    box-shadow: black 5px 8px 5px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+     font-size: 2rem;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    
+
+}
+p{
+    background-image: url("button.png");
+    margin-left:700px;
+    height: 4rem;
+    width: 20rem;
+    color:wheat;
+    font-family: Neucha, sans-serif;
+    align-self: center;
+    font-family: Neucha, sans-serif;
+    align-self: center;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    box-shadow: black 5px 8px 5px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+     font-size: 2rem;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+}
