@@ -35,58 +35,73 @@
             Feltétek = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
-            checkBox8 = new CheckBox();
-            checkBox7 = new CheckBox();
+            button1 = new Button();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            numericUpDown5 = new NumericUpDown();
+            numericUpDown4 = new NumericUpDown();
+            numericUpDown3 = new NumericUpDown();
+            numericUpDown2 = new NumericUpDown();
+            numericUpDown1 = new NumericUpDown();
             label1 = new Label();
-            checkBox4 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
             label2 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox1.Location = new Point(14, 49);
+            checkBox1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            checkBox1.Location = new Point(14, 81);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(68, 19);
+            checkBox1.Size = new Size(118, 23);
             checkBox1.TabIndex = 0;
-            checkBox1.Text = "Kolbász";
+            checkBox1.Text = "Kolbász +100";
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox2.Location = new Point(14, 87);
+            checkBox2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            checkBox2.Location = new Point(14, 128);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(47, 19);
+            checkBox2.Size = new Size(91, 23);
             checkBox2.TabIndex = 1;
-            checkBox2.Text = "Sajt";
+            checkBox2.Text = "Sajt +100";
             checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             checkBox3.AutoSize = true;
-            checkBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox3.Location = new Point(14, 126);
+            checkBox3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            checkBox3.Location = new Point(14, 172);
             checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(83, 19);
+            checkBox3.Size = new Size(136, 23);
             checkBox3.TabIndex = 2;
-            checkBox3.Text = "Pepperoni";
+            checkBox3.Text = "Pepperoni +100";
             checkBox3.UseVisualStyleBackColor = true;
             // 
             // Feltétek
             // 
             Feltétek.AutoSize = true;
             Feltétek.BackColor = Color.Maroon;
-            Feltétek.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            Feltétek.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
             Feltétek.Location = new Point(14, 16);
             Feltétek.Name = "Feltétek";
-            Feltétek.Size = new Size(110, 20);
+            Feltétek.Size = new Size(202, 37);
             Feltétek.TabIndex = 3;
             Feltétek.Text = "Plusz Feltétek:";
             // 
@@ -107,81 +122,129 @@
             // 
             panel2.BackColor = Color.Maroon;
             panel2.BackgroundImageLayout = ImageLayout.Center;
-            panel2.Controls.Add(checkBox8);
-            panel2.Controls.Add(checkBox7);
+            panel2.Controls.Add(button1);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(numericUpDown5);
+            panel2.Controls.Add(numericUpDown4);
+            panel2.Controls.Add(numericUpDown3);
+            panel2.Controls.Add(numericUpDown2);
+            panel2.Controls.Add(numericUpDown1);
             panel2.Controls.Add(label1);
-            panel2.Controls.Add(checkBox4);
-            panel2.Controls.Add(checkBox5);
-            panel2.Controls.Add(checkBox6);
             panel2.Location = new Point(826, 77);
             panel2.Name = "panel2";
-            panel2.Size = new Size(300, 244);
+            panel2.Size = new Size(300, 392);
             panel2.TabIndex = 5;
             // 
-            // checkBox8
+            // button1
             // 
-            checkBox8.AutoSize = true;
-            checkBox8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox8.Location = new Point(14, 204);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(83, 19);
-            checkBox8.TabIndex = 5;
-            checkBox8.Text = "Pepperoni";
-            checkBox8.UseVisualStyleBackColor = true;
+            button1.BackColor = Color.Black;
+            button1.ForeColor = Color.LightGray;
+            button1.Location = new Point(180, 348);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 14;
+            button1.Text = "Rendelés";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // checkBox7
+            // label7
             // 
-            checkBox7.AutoSize = true;
-            checkBox7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox7.Location = new Point(14, 167);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(83, 19);
-            checkBox7.TabIndex = 4;
-            checkBox7.Text = "Pepperoni";
-            checkBox7.UseVisualStyleBackColor = true;
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(56, 328);
+            label7.Name = "label7";
+            label7.Size = new Size(55, 19);
+            label7.TabIndex = 13;
+            label7.Text = "Hawaii";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(44, 268);
+            label6.Name = "label6";
+            label6.Size = new Size(76, 19);
+            label6.TabIndex = 12;
+            label6.Text = "Magyaros";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(44, 200);
+            label5.Name = "label5";
+            label5.Size = new Size(77, 19);
+            label5.TabIndex = 11;
+            label5.Text = "Húsimádó";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(51, 128);
+            label4.Name = "label4";
+            label4.Size = new Size(70, 19);
+            label4.TabIndex = 10;
+            label4.Text = "SonGoKu";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(44, 61);
+            label3.Name = "label3";
+            label3.Size = new Size(84, 19);
+            label3.TabIndex = 9;
+            label3.Text = "Margherita";
+            // 
+            // numericUpDown5
+            // 
+            numericUpDown5.Location = new Point(25, 350);
+            numericUpDown5.Name = "numericUpDown5";
+            numericUpDown5.Size = new Size(120, 23);
+            numericUpDown5.TabIndex = 8;
+            // 
+            // numericUpDown4
+            // 
+            numericUpDown4.Location = new Point(25, 290);
+            numericUpDown4.Name = "numericUpDown4";
+            numericUpDown4.Size = new Size(120, 23);
+            numericUpDown4.TabIndex = 7;
+            // 
+            // numericUpDown3
+            // 
+            numericUpDown3.Location = new Point(25, 222);
+            numericUpDown3.Name = "numericUpDown3";
+            numericUpDown3.Size = new Size(120, 23);
+            numericUpDown3.TabIndex = 6;
+            // 
+            // numericUpDown2
+            // 
+            numericUpDown2.Location = new Point(25, 152);
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new Size(120, 23);
+            numericUpDown2.TabIndex = 5;
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(25, 83);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(120, 23);
+            numericUpDown1.TabIndex = 4;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(14, 16);
             label1.Name = "label1";
-            label1.Size = new Size(57, 20);
+            label1.Size = new Size(106, 37);
             label1.TabIndex = 3;
             label1.Text = "Pizzák:";
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox4.Location = new Point(14, 49);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(68, 19);
-            checkBox4.TabIndex = 0;
-            checkBox4.Text = "Kolbász";
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox5.Location = new Point(14, 126);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(83, 19);
-            checkBox5.TabIndex = 2;
-            checkBox5.Text = "Pepperoni";
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox6.Location = new Point(14, 87);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(47, 19);
-            checkBox6.TabIndex = 1;
-            checkBox6.Text = "Sajt";
-            checkBox6.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -193,6 +256,45 @@
             label2.TabIndex = 6;
             label2.Text = "Tibi  Papa Pizza";
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(269, 299);
+            label8.Name = "label8";
+            label8.Size = new Size(148, 37);
+            label8.TabIndex = 7;
+            label8.Text = "Végösszeg:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Location = new Point(410, 299);
+            label9.Name = "label9";
+            label9.Size = new Size(0, 37);
+            label9.TabIndex = 8;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(410, 299);
+            label10.Name = "label10";
+            label10.Size = new Size(107, 37);
+            label10.TabIndex = 9;
+            label10.Text = "000000";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Location = new Point(510, 299);
+            label11.Name = "label11";
+            label11.Size = new Size(44, 37);
+            label11.TabIndex = 10;
+            label11.Text = "FT";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -202,6 +304,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1420, 685);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(label8);
             Controls.Add(label2);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -213,6 +319,11 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -226,11 +337,21 @@
         private Panel panel1;
         private Panel panel2;
         private Label label1;
-        private CheckBox checkBox4;
-        private CheckBox checkBox5;
-        private CheckBox checkBox6;
-        private CheckBox checkBox8;
-        private CheckBox checkBox7;
         private Label label2;
+        private NumericUpDown numericUpDown5;
+        private NumericUpDown numericUpDown4;
+        private NumericUpDown numericUpDown3;
+        private NumericUpDown numericUpDown2;
+        private NumericUpDown numericUpDown1;
+        private Button button1;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label8;
+        private Label label9;
+        private Label label10;
+        private Label label11;
     }
 }
